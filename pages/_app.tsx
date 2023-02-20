@@ -8,16 +8,6 @@ import NavDrawer from "../components/NavDrawer";
 function MyApp({ Component, pageProps, router }: AppProps) {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const container = useRef<HTMLDivElement>(null);
-  const [showScrollProgress, setShowScrollProgress] = useState(false);
-
-  // Set visibility of navbar scroll progress bar based on path
-  useEffect(() => {
-    if (router.pathname.includes("/article/")) {
-      setShowScrollProgress(true);
-    } else {
-      setShowScrollProgress(false);
-    }
-  }, [router.pathname]);
 
   // Setup nav drawer
   const toggleNavDrawer = () => {
