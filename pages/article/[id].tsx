@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { GetServerSideProps, NextPage } from "next";
 import React from "react";
 import { Article } from "../../models";
@@ -11,12 +10,7 @@ interface Props {
 
 const ArticlePage: NextPage<Props> = ({ article }) => {
   return (
-    <motion.main
-      className="container lg:max-w-[70%] mx-auto min-h-[200vh] py-8"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-    >
+    <main className="container lg:max-w-[70%] mx-auto min-h-[200vh] py-8">
       <div className="relative w-full h-60 mx-auto">
         <Image
           src={article.image_url}
@@ -37,7 +31,7 @@ const ArticlePage: NextPage<Props> = ({ article }) => {
           <p>{article.content}</p>
         ))}
       </div>
-    </motion.main>
+    </main>
   );
 };
 
