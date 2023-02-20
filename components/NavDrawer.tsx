@@ -55,7 +55,7 @@ const NavDrawer: React.FC<Props> = ({ toggleNavDrawer }) => {
         </div>
       </motion.div>
       <motion.div
-        className="fixed left-0 top-0 z-40 h-screen w-screen bg-black"
+        className="fixed left-0 top-0 z-40 h-screen w-screen bg-black opacity-70"
         initial={{ opacity: 0 }}
         animate={{
           opacity: 0.7,
