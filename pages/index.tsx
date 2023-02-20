@@ -1,4 +1,3 @@
-import { AnimatePresence, motion } from "framer-motion";
 import type { GetServerSideProps, NextPage } from "next";
 import { useEffect, useState } from "react";
 import ArticlePreview from "../components/ArticlePreview";
@@ -19,35 +18,21 @@ const Home: NextPage<Props> = ({ articles }) => {
   }, []);
 
   return (
-    <motion.main
-      className="container lg:max-w-[70%] mx-auto"
-      exit={{ opacity: 0 }}
-    >
-      <AnimatePresence mode="wait">
-        {isLoading ? (
-          <motion.div
-            key="loading"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-          >
-            <ArticlePreviewSkeleton />
-            <ArticlePreviewSkeleton />
-            <ArticlePreviewSkeleton />
-          </motion.div>
-        ) : (
-          <motion.div
-            key="loaded"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-          >
-            {articles.map((article, idx) => (
-              <ArticlePreview article={article} idx={idx} />
-            ))}
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </motion.main>
+    <main className="container lg:max-w-[70%] mx-auto">
+      {isLoading ? (
+        <div key="loading">
+          <ArticlePreviewSkeleton />
+          <ArticlePreviewSkeleton />
+          <ArticlePreviewSkeleton />
+        </div>
+      ) : (
+        <div key="loaded">
+          {articles.map((article, idx) => (
+            <ArticlePreview article={article} idx={idx} />
+          ))}
+        </div>
+      )}
+    </main>
   );
 };
 

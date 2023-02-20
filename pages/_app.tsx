@@ -3,7 +3,6 @@ import type { AppProps } from "next/app";
 import Navbar from "../components/Navbar";
 import Head from "next/head";
 import { useEffect, useRef, useState } from "react";
-import { AnimatePresence } from "framer-motion";
 import NavDrawer from "../components/NavDrawer";
 
 function MyApp({ Component, pageProps, router }: AppProps) {
@@ -56,12 +55,8 @@ function MyApp({ Component, pageProps, router }: AppProps) {
       />
 
       <div className="flex-1 mt-20 px-8">
-        <AnimatePresence>
-          {navbarOpen && <NavDrawer toggleNavDrawer={toggleNavDrawer} />}
-        </AnimatePresence>
-        <AnimatePresence mode="wait">
-          <Component {...pageProps} key={router.route} />
-        </AnimatePresence>
+        {navbarOpen && <NavDrawer toggleNavDrawer={toggleNavDrawer} />}
+        <Component {...pageProps} key={router.route} />
       </div>
     </div>
   );
