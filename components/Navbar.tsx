@@ -3,10 +3,9 @@ import React from "react";
 
 interface Props {
   onMenuClick: () => void;
-  showScrollProgress?: boolean;
 }
 
-const Navbar: React.FC<Props> = ({ onMenuClick, showScrollProgress }) => {
+const Navbar: React.FC<Props> = ({ onMenuClick }) => {
   return (
     <nav className="flex align-center gap-x-6 w-full px-8 py-4 fixed top-0 z-10 bg-white border-b-2">
       <div
@@ -20,10 +19,6 @@ const Navbar: React.FC<Props> = ({ onMenuClick, showScrollProgress }) => {
       <Link href={`${process.env.NEXT_PUBLIC_BASE_URL}/`}>
         <h1 className="font-bold">The Front Page</h1>
       </Link>
-
-      {showScrollProgress && (
-        <div className="h-1 bg-blue-500 absolute bottom-0 left-0 max-w-[100%]" />
-      )}
     </nav>
   );
 };

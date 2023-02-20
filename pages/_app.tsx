@@ -24,24 +24,6 @@ function MyApp({ Component, pageProps, router }: AppProps) {
     setNavbarOpen((prev) => !prev);
   };
 
-  const preventScrolling = (e: Event) => {
-    e.preventDefault();
-    e.stopPropagation();
-  };
-
-  useEffect(() => {
-    const currentContainer = container.current;
-    if (currentContainer) {
-      if (navbarOpen) {
-        currentContainer.addEventListener("wheel", preventScrolling);
-      }
-
-      return () => {
-        currentContainer.removeEventListener("wheel", preventScrolling);
-      };
-    }
-  }, [navbarOpen]);
-
   return (
     <div className="relative flex flex-col min-h-screen" ref={container}>
       <Head>
@@ -49,10 +31,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar
-        onMenuClick={toggleNavDrawer}
-        showScrollProgress={showScrollProgress}
-      />
+      <Navbar onMenuClick={toggleNavDrawer} />
 
       <div className="flex-1 mt-20 px-8">
         {navbarOpen && <NavDrawer toggleNavDrawer={toggleNavDrawer} />}
