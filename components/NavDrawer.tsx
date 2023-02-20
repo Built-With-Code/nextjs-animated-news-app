@@ -43,7 +43,7 @@ const NavDrawer: React.FC<Props> = ({ toggleNavDrawer }) => {
         </div>
       </div>
       <div
-        className="fixed left-0 top-0 z-40 h-screen w-screen bg-black"
+        className="fixed left-0 top-0 z-40 h-screen w-screen bg-black opacity-70"
         onClick={toggleNavDrawer}
       />
     </div>
