@@ -1,0 +1,104 @@
+{
+  "articles": [
+    {
+      "title": "Record Breaking Heatwave Sweeps Across Europe",
+      "slug": "europe-heatwave",
+      "author": "John Doe",
+      "publication_date": "2023-02-05",
+      "category": "global",
+      "description": "Europe is experiencing an unprecedented heatwave, with temperatures reaching new highs in many cities. Emergency services are urging people to take precautions and stay hydrated as the heat continues to scorch the continent.",
+      "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.sciline.org%2Fwp-content%2Fuploads%2F2021%2F02%2Fcropped-Heat-Waves-and-Climate-Change.jpg&f=1&nofb=1&ipt=854458ff60e75df5c944b6c82e6413502442630c962522aede700a796962aa97&ipo=images",
+      "content": ""
+    },
+    {
+      "title": "SpaceX Launches First Private Mission to Mars",
+      "slug": "spacex-mars",
+      "author": "Jane Doe",
+      "publication_date": "2023-02-04",
+      "category": "technology",
+      "description": "SpaceX has successfully launched its first privately funded mission to Mars, marking a significant milestone in space exploration. The mission aims to gather valuable data about the red planet and pave the way for future human settlement.",
+      "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftekhdecoded.com%2Fwp-content%2Fuploads%2F2021%2F01%2F9d72-keyancx9423872.jpg&f=1&nofb=1&ipt=c7b0cf29e7a20b6d2161c4589bdefeb588e54a0c64bdc9c3e91ff3f1c9f7c4c0&ipo=images",
+      "content": ""
+    },
+    {
+      "title": "New Study Reveals Surprising Benefits of Meditation",
+      "slug": "meditation-study",
+      "author": "John Smith",
+      "publication_date": "2023-02-03",
+      "category": "science",
+      "description": "A new study has found that practicing meditation regularly can have a number of surprising benefits for mental and physical health. The research suggests that meditation can help reduce stress, improve sleep, and boost immunity.",
+      "image_url": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-BVnyoxpHC88%2FT-OCFF7Zw2I%2FAAAAAAAAAzU%2Fqh18Tq-y8pE%2Fs1600%2Fmeditation.jpg&f=1&nofb=1&ipt=3194223caa058d7b377aa4b10ac1fdaba450f00b584e5159406efacc968f3586&ipo=images",
+      "content": ""
+    },
+    {
+      "title": "Major Breakthrough in Cancer Research",
+      "slug": "cancer-breakthrough",
+      "author": "Jane Smith",
+      "publication_date": "2023-02-02",
+      "category": "science",
+      "description": "Scientists have made a major breakthrough in cancer research, developing a new treatment that shows promising results in clinical trials. The treatment uses a unique approach to target cancer cells, offering hope to patients and families affected by the disease.",
+      "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cancerresearchuk.org%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fcruk_wide_resp_breakpoint_one%2Fpublic%2Fcovid-19_letter_to_researchers_header_image_1.png%3Fitok%3DEuuSeE0Q&f=1&nofb=1&ipt=ab3f7fc5cd024fca07993a43978cc6c40dea8bc16e6ad587659df6d07f658a25&ipo=images",
+      "content": ""
+    },
+    {
+      "title": "First-Ever Electric Plane Takes Flight",
+      "slug": "electric-plane-flight",
+      "author": "John Doe",
+      "publication_date": "2023-02-01",
+      "category": "technology",
+      "description": "The aviation industry has made history with the successful launch of the first-ever electric plane. The plane, which runs on battery power, aims to revolutionize air travel by reducing emissions and operating costs.",
+      "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.6LTpkZW0wJTgzoDEhkczvwHaDt%26pid%3DApi&f=1&ipt=14ada87c9582468db5ba31f1fc53542e22b8897ee852f6210bb7520acea4a934&ipo=images",
+      "content": ""
+    },
+    {
+      "title": "Global Leaders Gather for Climate Summit",
+      "slug": "global-climate-summit",
+      "author": "Jane Doe",
+      "publication_date": "2023-01-31",
+      "category": "global",
+      "description": "Leaders from around the world have gathered for a major climate summit, to discuss collective action on the pressing issue of global warming. The summit aims to build on the progress made in recent years and accelerate the transition to a cleaner and more sustainable future.",
+      "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flive.staticflickr.com%2F65535%2F51241028249_bfe3439ea6.jpg&f=1&nofb=1&ipt=f2e7f88bce6bc0652f509134b6388be96bac9e4a1cc168e772e6e8755dbe26fd&ipo=images",
+      "content": ""
+    },
+    {
+      "title": "Record Sales for Electric Cars in 2022",
+      "slug": "2022-electric-car-sales",
+      "author": "John Smith",
+      "publication_date": "2023-01-30",
+      "category": "technology",
+      "description": "Electric cars have seen record sales in 2022, as consumers increasingly opt for environmentally friendly transportation. The trend marks a significant shift in the auto industry and reflects growing concern about the impact of traditional cars on the environment.",
+      "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthecityfix.com%2Fwp-content%2Fuploads%2F2019%2F08%2FUsed-EV-blog-Oslo-parking-lot-in-text.jpg&f=1&nofb=1&ipt=c89ae7e26f57b66c216c1cbe1a7e8d9dbc174a88fcdba8632565a1c5fe245edb&ipo=images",
+      "content": ""
+    },
+    {
+      "title": "Groundbreaking Discovery in Antimicrobial Resistance",
+      "slug": "antimicrobial-resistance-discovery",
+      "author": "Jane Smith",
+      "publication_date": "2023-01-29",
+      "category": "science",
+      "description": "Scientists have made a groundbreaking discovery in the field of antimicrobial resistance, developing a new method to combat drug-resistant bacteria. The breakthrough offers hope in the fight against superbugs and could save countless lives.",
+      "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cleanroomsupplies.com%2Fwp-content%2Fuploads%2F2020%2F12%2Fcoxiella-burnetii-bacteria-microbes-768x549.jpg&f=1&nofb=1&ipt=645a70e4044835aef6601151abd5b0b7a92362da6fb93be5d4572f7052f2404e&ipo=images",
+      "content": ""
+    },
+    {
+      "title": "World's Tallest Building Unveiled in Dubai",
+      "slug": "tallest-building-dubai",
+      "author": "John Doe",
+      "publication_date": "2023-01-28",
+      "category": "global",
+      "description": "Dubai has unveiled the world's tallest building, a stunning skyscraper that stands at over a kilometer tall. The building, which will house offices, apartments, and a hotel, is a testament to the city's ambition and innovative spirit.",
+      "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flive.staticflickr.com%2F7444%2F10758930934_0b84f6ffd4_b.jpg&f=1&nofb=1&ipt=e50f1c2062a53aa72a65da2d14910b7d0b815c1d51d18bef310d26b2e9e51080&ipo=images",
+      "content": ""
+    },
+    {
+      "title": "Historic Agreement Reached on Global Migration",
+      "slug": "global-migration-agreement",
+      "author": "Jane Doe",
+      "publication_date": "2023-01-27",
+      "category": "global",
+      "description": "Global leaders have reached a historic agreement on migration, aimed at addressing the challenges posed by the movement of people across borders. The agreement lays out a framework for cooperation and seeks to ensure that migration is safe, orderly, and regular.",
+      "image_url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.unu.edu%2Fmedia%2Fourworld.unu.edu-en%2Farticle%2F20555%2Fchildren-global-compact-for-migration_4.jpg&f=1&nofb=1&ipt=bcff86803081b4735b739991a3b7bb85f035ed46464c834c2c72293e8557c814&ipo=images",
+      "content": ""
+    }
+  ]
+}

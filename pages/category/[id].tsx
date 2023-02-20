@@ -1,15 +1,15 @@
 import { AnimatePresence, motion } from "framer-motion";
-import type { GetServerSideProps, NextPage } from "next";
-import { useEffect, useState } from "react";
-import ArticlePreview from "../components/ArticlePreview";
-import ArticlePreviewSkeleton from "../components/ArticlePreviewSkeleton";
-import { Article } from "../models";
+import { GetServerSideProps, NextPage } from "next";
+import React, { useEffect, useState } from "react";
+import { Article } from "../../models";
+import ArticlePreviewSkeleton from "../../components/ArticlePreviewSkeleton";
+import ArticlePreview from "../../components/ArticlePreview";
 
 interface Props {
   articles: Article[];
 }
 
-const Home: NextPage<Props> = ({ articles }) => {
+const CategoryPage: NextPage<Props> = ({ articles }) => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -58,13 +58,18 @@ type Data = {
 export const getServerSideProps: GetServerSideProps<Props> = async (
   context
 ) => {
+  const categoryId = context.query.id;
   const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/data.json`);
   const data: Data = await res.json();
   const articles = data.articles;
 
+  const categoryArticles = articles.filter(
+    (article) => article.category == categoryId
+  );
+
   return {
-    props: { articles },
+    props: { articles: categoryArticles },
   };
 };
 
-export default Home;
+export default CategoryPage;
